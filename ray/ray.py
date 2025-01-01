@@ -41,7 +41,7 @@ class Ray:
         """
         spam all channels in a server
         """
-        if not self.__verify_token() or not self.__verify_guild():
+        if not self.__verify_token() and not self.__verify_guild():
             return {"Invalid token  or guild id"}
 
         url = f"https://discord.com/api/v10/guilds/{self.guild_id}/channels"
