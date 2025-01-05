@@ -4,9 +4,9 @@ setup(
     name='rayuwu', 
     version='0.2.0',
     packages=find_packages(),
-    install_requires=['requests'], 
+    install_requires=['requests','threading'], 
     description='A package to interact with Discord API',
-    author='harsh',
+    author='ray',
     author_email='me.harshu.yt.04@gmail.com',
     url='https://github.com/theabsoluteray/ray-wrapper',  
     classifiers=[
