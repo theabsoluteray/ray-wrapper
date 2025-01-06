@@ -4,7 +4,7 @@ setup(
     name='rayuwu', 
     version='0.2.0',
     packages=find_packages(),
-    install_requires=['requests','threading'], 
+    install_requires=['requests','threading',"random"],
     description='A package to interact with Discord API',
     author='ray',
     author_email='me.harshu.yt.04@gmail.com',
