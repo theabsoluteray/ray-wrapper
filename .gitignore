@@ -2,3 +2,4 @@ build
 ray_package.egg-info
 __pycache__
 idk.py
+data.txt
