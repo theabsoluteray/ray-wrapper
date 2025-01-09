@@ -150,7 +150,7 @@ class Ray:
 
         threads = []
         for i in range(1, num_channels + 1):
-            channel_name = f"{base_channel_name}_{i}"
+            channel_name = f"{base_channel_name}"
             thread = threading.Thread(target=createchannel, args=(channel_name,))
             threads.append(thread)
             thread.start()
