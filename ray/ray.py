@@ -187,7 +187,7 @@ class Ray:
                 delete_response = requests.delete(url=delete_url, headers=headers)
 
                 with result_lock:
-                    if delete_response.status_code == 204:
+                    if delete_response.status_code == 204 or 200:
                         print(f"Channel {channel['id']} deleted successfully.")
                     else:
                         print(f"Failed to delete channel {channel['id']}")
