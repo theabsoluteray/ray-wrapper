@@ -4,3 +4,5 @@
 
 # installation
 ```pip install rayuwu```
+
+🤓☝️ https://pypi.org/project/rayuwu
